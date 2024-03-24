@@ -13,7 +13,7 @@ Para utilizar este entorno de desarrollo, se recomienda tener instalados los sig
 ##  Tutorial de Configuración en Windows
 Antes de seguir el tutorial, asegúrate de tener instalados Git y FPC.
 
-[![Ver Tutorial](https://i9.ytimg.com/vi/LHkuQ-Vi8Bo/mq3.jpg?sqp=CPyz_68G-oaymwEmCMACELQB8quKqQMa8AEB-AHQBoAC4AOKAgwIABABGE4gWyhlMA8=&rs=AOn4CLAUMOFDRjxaVm0pJkjLaAYp45gQ6w)](http://www.youtube.com/watch?v=TU_ID_DEL_VIDEO "Ver Tutorial")
+[![Ver Tutorial](https://i9.ytimg.com/vi/LHkuQ-Vi8Bo/mq3.jpg?sqp=CPyz_68G-oaymwEmCMACELQB8quKqQMa8AEB-AHQBoAC4AOKAgwIABABGE4gWyhlMA8=&rs=AOn4CLAUMOFDRjxaVm0pJkjLaAYp45gQ6w)](https://www.youtube.com/watch?v=LHkuQ-Vi8Bo&ab_channel=Mnesicles)
 
 ¿Cómo configuro el alias cr?
 
