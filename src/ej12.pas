@@ -20,8 +20,11 @@ end;
 
 procedure calcularSumaYPromedio();
 begin
-  promedio := (numeros[0] + numeros[1] + numeros[2] + numeros[3]) div 3;
-  suma:= (numeros[0] + numeros[1] + numeros[2] + numeros[3]);
+  for i := 0 to 3 do
+  begin
+    suma+= numeros[i];
+  end;
+  promedio := suma div 4;
 end;
 
 procedure salida();
