@@ -1,0 +1,53 @@
+{
+	"ejerc estructura":{
+		"prefix": "ejerc",
+		"scope": "pascal",
+		"body": [
+			"program ej$1;",
+			"uses crt;",
+			"",
+			"begin",
+			"",
+			"end."
+		]
+	},
+	"ejerc estructura benja":{
+		"prefix": "ej",
+		"scope": "pascal",
+		"body": [
+			"program ej$1;",
+			"uses crt, ejerc_unit;",
+			"",
+			"const consigna = 'Consigna del ejercicio.';",
+			"",
+			"",
+			"procedure ingresarDatos();",
+			"begin",
+			
+			"end;",
+			"",
+			"",
+			"procedure proceso();",
+			"begin",
+			
+			"end;",
+			"",
+			"",
+			"procedure salida();",
+			"begin",
+			
+			"end;",
+			"",
+			"",
+			"begin",
+			"ejercicio($1, consigna);",
+			"",
+			"ingresarDatos();",
+			"proceso();",
+			"pintarSalida(@salida);",
+			"",
+			"final();",
+			"end."
+		]
+	}
+}
