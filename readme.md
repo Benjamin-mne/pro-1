@@ -10,6 +10,27 @@ Para utilizar este entorno de desarrollo, se recomienda tener instalados los sig
 - [Free Pascal Compiler (FPC)](https://www.freepascal.org/)
 - [Extensión "Pascal Magic" para VSCode](https://marketplace.visualstudio.com/items?itemName=theangryepicbanana.language-pascal) (proporciona resaltado de sintaxis y snippets)
 
+##  Tutorial de Configuración en Windows
+Antes de seguir el tutorial, asegúrate de tener instalados Git y FPC.
+
+[![Ver Tutorial](https://i9.ytimg.com/vi/LHkuQ-Vi8Bo/mq3.jpg?sqp=CPyz_68G-oaymwEmCMACELQB8quKqQMa8AEB-AHQBoAC4AOKAgwIABABGE4gWyhlMA8=&rs=AOn4CLAUMOFDRjxaVm0pJkjLaAYp45gQ6w)](http://www.youtube.com/watch?v=TU_ID_DEL_VIDEO "Ver Tutorial")
+
+¿Cómo configuro el alias cr?
+
+1. Ubícate en la carpeta de usuario:
+```bash
+cd c:/users/<tu_nombre_de_usuario>
+```
+
+2. Una vez en la carpeta, crea el archivo .bashrc:
+```bash
+notepad ~/.bashrc
+```
+
+Agrega el contenido del alias cr de la sección **"Configuración Adicional"** al archivo `.bashrc`. Cierra y vuelve a abrir la terminal para que el alias funcione correctamente.
+
+¡Espero que este tutorial te sea útil para configurar tu entorno de desarrollo en Windows!
+
 ## Clonar el Proyecto
 
 Puedes clonar este repositorio utilizando el siguiente comando de Git:
