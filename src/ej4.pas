@@ -16,7 +16,7 @@ begin
     readln(altura);
 end;
 
-procedure calcularArea();
+procedure calcularPerimetro();
 begin
     perimetro:=base + altura + sqrt(base * base + altura * altura);
 end;
@@ -31,7 +31,7 @@ begin
     ejercicio(4, consigna);
 
     ingresarDatos();
-    calcularArea();
+    calcularPerimetro();
     pintarSalida(@salida);
 
     final();
