@@ -44,7 +44,13 @@ git clone https://github.com/Benjamin-mne/pro-1.git
 Se proporciona un alias de bash llamado `cr` que facilita la compilación y ejecución de programas Pascal. Este alias está configurado de la siguiente manera:
 
 ```bash
-alias cr='function _cr() { mkdir -p ./bin && fpc -o"./bin/$1" "./src/$1".pas && ./bin/"$1"; }; _cr'
+alias cr='function _cr() { 
+    local folder=$(dirname "$1")
+    local filename=$(basename "$1")
+    mkdir -p "./bin/$folder" 
+    fpc -o"./bin/$folder/$filename" "./src/$folder/$filename.pas" 
+    ./bin/$folder/"$filename"
+}; _cr'
 ```
 Este alias crea automáticamente la carpeta bin si no existe y compila el archivo Pascal especificado en la carpeta src, generando un ejecutable en la carpeta bin y ejecutándolo.
 
